@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('deskripsi_product');
             $table->string('harga');
             $table->string('url_gambar');
-            $table->string('link_ecommerce');
+            $table->text('link_ecommerce');
             $table->string('kategori_product');
             $table->foreignId('user_id');
             $table->timestamp('created_at')->useCurrent();
